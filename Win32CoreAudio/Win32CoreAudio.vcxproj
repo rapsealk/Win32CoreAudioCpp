@@ -139,7 +139,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Sources\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Includes\cleanup.hpp" />
+    <ClInclude Include="Includes\prefs.hpp" />
+    <ClInclude Include="Includes\util.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
